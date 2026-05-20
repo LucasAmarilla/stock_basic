@@ -1,0 +1,35 @@
+{
+  "name": "example-with-tailwindcss",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite start",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.3",
+    "@solidjs/router": "^0.15.4",
+    "@solidjs/start": "2.0.0-alpha.2",
+    "@solidjs/vite-plugin-nitro-2": "^0.1.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "jsonwebtoken": "^9.0.3",
+    "solid-js": "^1.9.13",
+    "solid-sonner": "^0.3.1",
+    "vite": "^7.3.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "drizzle-kit": "^0.31.10",
+    "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
